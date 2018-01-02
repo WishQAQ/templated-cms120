@@ -1,0 +1,4 @@
+INSERT INTO `dede_search_keywords` VALUES('1','芝麻香型','芝麻香型 芝麻 香型','1','1','1505809579','0','0');
+INSERT INTO `dede_search_keywords` VALUES('2','一品','一品','1','7','1505812045','0','0');
+INSERT INTO `dede_search_keywords` VALUES('3','P品','P品','1','0','1505813650','0','0');
+INSERT INTO `dede_search_keywords` VALUES('4','品','品','2','11','1505813679','0','0');

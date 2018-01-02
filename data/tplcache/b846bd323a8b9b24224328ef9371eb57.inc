@@ -1,0 +1,1 @@
+<a href="[field:typelink/]" title="[field:typename/]" target="_self" class="more">了解更多</a>

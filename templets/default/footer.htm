@@ -1,0 +1,32 @@
+<footer>
+  <div class="layout">
+    <div class="padding-top padding-bottom foot-bot">
+      <div class="container">
+        <div class="foot-link"><span>友情链接</span> {dede:flink titlelen='20' row='20' type='text'}  [field:link /]  {/dede:flink}<!--link start-->&nbsp;&nbsp;<!--link end--></div>
+        <div class="line copyright">
+          <div class="xm6 xs12 copy">{dede:global.cfg_powerby/} {dede:global.cfg_beian/}&nbsp;&nbsp;技术支持：<a href="//zhanoo.com" target="_blank"  title="站窝窝">站窝窝</a>&nbsp;&nbsp; </div>
+          <div div class="xm6 xs12 foot-nav"> {dede:type typeid='1'}
+            <li><a href='[field:typelink/]'>[field:typename/]</a></li>
+            {/dede:type} 
+            |
+            {dede:type typeid='2'}
+            <li><a href='[field:typelink/]'>[field:typename/]</a></li>
+            {/dede:type}
+            |
+            {dede:type typeid='7'}
+            <li><a href='[field:typelink/]'>[field:typename/]</a></li>
+            {/dede:type} </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--底部版权-->
+<div class="blank55"></div>
+<div id="toolbar" class="layout text-center">
+  <div class="x3"><a href="/"><span class="icon-home"></span>首页</a></div>
+  <div class="x3"><a href="tel:{dede:global.cfg_dh/}"><span class="icon-phone"></span>电话</a></div>
+  <div class="x3"><a href="sms:{dede:global.cfg_sj/}"><span class="icon-envelope-o"></span>短信</a></div>
+  <div class="x3">{dede:type typeid='7'} <a href="[field:typelink/]"><span class="icon-user"></span>联系</a>{/dede:type} </div>
+</div>

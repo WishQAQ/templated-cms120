@@ -1,0 +1,27 @@
+<header id="fh5co-header">
+  <div class="layout header-box fixed">
+    <div class="container">
+      <div class="navbar">
+        <div class="navbar-head">
+          <h1><a href="/" title="{dede:global.cfg_webname/}"><img class="ring-hover" src="/skin/images/logo.png" /></a></h1>
+        </div>
+        <div class="navbar-body">
+          <div class="nav-navicon" id="nav-main1">
+            <ul class="nav  nav-inline  nav-menu">
+              <li {dede:field name=typeid runphp="yes"}(@me=="")? @me=" class='current' ":@me="";{/dede:field}><a class="first-level " href='/'>网站首页</a></li>
+              {dede:channelartlist typeid='1,2' currentstyle='current'}
+              <li class='{dede:field.currentstyle/}'><a class="first-level" href='{dede:field name='typeurl'/}'>{dede:field name='typename'/}</a></li>
+              {/dede:channelartlist}
+              {dede:channelartlist typeid='3,3' currentstyle='current'}
+              <li class='{dede:field.currentstyle/}'><a class="first-level four" href='{dede:field name='typeurl'/}'>{dede:field name='typename'/}</a></li>
+              {/dede:channelartlist}
+              {dede:channelartlist typeid='4,5,6,7' currentstyle='current'}
+              <li class='{dede:field.currentstyle/}'><a class="first-level" href='{dede:field name='typeurl'/}'>{dede:field name='typename'/}</a></li>
+              {/dede:channelartlist}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
